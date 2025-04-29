@@ -1,0 +1,9 @@
+Sample Name,Cluster,Factor Value[Spaceflight]
+M9,1,Basal Control
+M10,1,Basal Control
+M19,0,Vivarium Control
+M20,0,Vivarium Control
+M29,0,Space Flight
+M30,0,Space Flight
+M39,1,Ground Control
+M40,0,Ground Control
