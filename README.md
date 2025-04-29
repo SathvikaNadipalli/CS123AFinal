@@ -21,9 +21,9 @@ The analysis performed in this repository aimed to understand how spaceflight af
     * **Ground:** Basal Control and Vivarium Control (representing normal mouse environments).
     * **Flight:** Space Flight and Ground Control (where "Ground Control" in this context refers to a control group that experienced all aspects of the flight *except* microgravity).
 3.  **Data Visualization:** Box plots were generated to visualize the distribution of each cytokine across the experimental groups.
-4.  **KMeans Clustering:** KMeans clustering was performed to identify distinct groups of samples based on cytokine levels.
+4.  **KMeans Clustering:** KMeans clustering was performed to try to form ground and space clusters.
 5.  **Feature Importance Analysis (KMeans):** Feature importance was calculated from the KMeans clustering results to determine which cytokines contributed most to the separation of clusters.
-6.  **Key Finding:** The analysis identified `il12p70_concentration_normalized` as the cytokine with the highest feature importance, which was consistent with the observations from the initial box plot visualization. This suggests a strong link between spaceflight and inflammasome activation in the brain, as reflected by IL-12p70 levels.
+6.  **Key Finding:** The analysis identified `il12p70_concentration_normalized` as the cytokine with the highest feature importance, which was consistent with the observations from the initial box plot visualization. This suggests that IL-12p70 levels have a strong link between spaceflight and inflammasome activation in the brain.
 
 ## Conclusion
 
